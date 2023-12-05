@@ -29,7 +29,7 @@ function obfuscation() {
                 }
             }
         }
-
+//Comment
         function startWithKeyWord(line) {
             return line.startsWith("if") || line.startsWith("for") || line.startsWith("while")
         }
