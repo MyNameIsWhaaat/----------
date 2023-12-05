@@ -1,6 +1,6 @@
 let x = "a b v g d"
 let y = 5
-//FSDFSDFSDFSDFSDFSDFFSD
+//Какие-то изменения
 /*1+++++*/
 for (let i=0; i<3; i++) {
     console.log(`${i} ok`)
