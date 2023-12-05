@@ -93,7 +93,7 @@ function obfuscation() {
                 if (listOfBracketCounts[listOfBracketCounts.length-1] === 1) {
                     listOfBracketCounts.pop()
                     listOfTextBlocks[listOfTextBlocks.length-1].push("}")
-
+//fjds
                     let functionName = rename()
                     let textBlock = listOfTextBlocks.pop()
                     let blockInFunction = `function ${functionName} ( ) { ${textBlock.join(" ")} } ${functionName} ( ) `
